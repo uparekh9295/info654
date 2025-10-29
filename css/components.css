@@ -96,8 +96,8 @@
 /* image placeholder */
 .placeholder {
   width: 100%;
-  height: auto;       /* let the photo decide its height */
-  object-fit: contain; /* show full image, no cropping */
+  max-height: 250px;
+  object-fit: contain;
 
 }
 
