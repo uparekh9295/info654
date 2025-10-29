@@ -1,0 +1,110 @@
+
+
+/* hero banner */
+.hero {
+  background: #fff8cc; /* soft yellow */
+  border-radius: 20px;
+  padding: 24px 16px;
+  margin: 16px 0 20px;
+  box-shadow: 0 4px 0 #eee;
+  text-align: center;
+}
+.hero h2 { 
+  margin: 4px 0; 
+  color: #2e7d32; /* green */
+}
+.hero p { 
+  margin: 4px auto 0; 
+  max-width: 600px; 
+}
+.hero .cta {
+  margin-top: 12px;
+  display: inline-block;
+  background: #2e7d32;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 14px;
+  border-radius: 12px;
+  font-weight: bold;
+  box-shadow: 0 3px 0 #ddd;
+}
+
+/* grid + cards */
+.grid {
+  display: grid;
+  gap: 16px;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+}
+
+.card {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 4px 0 #eee;
+}
+
+.card-inner { 
+  padding: 16px; 
+}
+
+.card h3 { 
+  margin: 4px 0; 
+  color: #2e7d32; 
+}
+
+.badge {
+  display: inline-block;
+  font-size: 13px;
+  background: #eaf5ff;
+  padding: 4px 8px;
+  border-radius: 9999px;
+  border: 1px solid #ddd;
+}
+
+/* tables */
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #fff;
+  border-radius: 14px;
+  overflow: hidden;
+  box-shadow: 0 4px 0 #eee;
+}
+
+.table th,
+.table td {
+  padding: 12px 14px;
+  border-bottom: 1px solid #eee;
+  text-align: left;
+}
+
+.table th { 
+  background: #eaf5ff; 
+}
+
+/* section titles */
+.section-title {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 20px 0 8px;
+  font-size: 20px;
+  color: #2e7d32;
+}
+
+/* image placeholder */
+.placeholder {
+  width: 100%;
+  height: auto;       /* let the photo decide its height */
+  object-fit: contain; /* show full image, no cropping */
+
+}
+
+
+
+/* responsive tweaks */
+@media (max-width: 560px) {
+  .brand h1 { font-size: 20px; }
+  .hero h2 { font-size: 22px; }
+}
